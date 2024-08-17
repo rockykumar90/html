@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            justify-content: center;  margin: 35px; display: flex; background-color: rgb(253, 248, 193);
+        }
+        .user{
+            
+            border-radius: 0.5rem;
+            height: 21px;
+            width: 45%;
+        
+        }
+        button:hover{
+           
+            cursor:pointer;
+        }
+        label{
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        input{
+            border-radius: 0.5rem;
+            height: 21px;
+            width: 98%;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgb(255, 248, 223); padding: 34px; border: 1px solid black; height: 700px;; width: auto; border-radius: 1rem; box-shadow: -26px -26px 26px rgb(255, 241, 82); ">
+        
+        <fieldset style="width: auto; height: 670px; border-radius: 1rem; text-shadow: 3px 3px 3px rgb(178, 235, 140);">
+
+            <legend style="font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> <strong>Registration form </strong> </legend> <br>
+            <label for="1">Enter Your First Name :&nbsp;&nbsp;&nbsp;&nbsp;Enter Your Last Name:</label> <br>
+            <input class="user" type="text" name="username" required placeholder="first name"> &nbsp;&nbsp;&nbsp;&nbsp;<input class="user" type="text" name="username" required placeholder="last name"><br> <br>
+            <label for="2"> Create your userid </label> <br>
+            <input type="text" placeholder="Enter a unique userid eg: firstname789"> <br> <br>
+            <label for="2"> Create your Password </label> <br>
+            <input type="password" placeholder="Enter a strong password eg: name@dob "> <br> <br>
+
+
+            <fieldset style="margin: 0px; background-color: white; justify-content: left; display: flex; border-radius: 0.5rem;">
+                      <legend style="font-size: large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> <strong>Gender</strong> </legend>
+            <input style="width: 10%; font-weight: 100;" type="radio" name="Male" id=""><label style="font-size: larger;text-shadow: none;" for="gen">Male</label><input style="width: 10%;" type="radio" name="Male" id=""><label style="font-size: larger; text-shadow: none;" for="gen2">Female</label>
+            <input style="width: 10%; font-weight: 100;" type="radio" name="Male" id=""><label style="font-size: larger;text-shadow: none;" for="gen">Trans</label>
+            </fieldset><br>
+            
+            
+            <label for="2"> Enter Your Email</label> <br>
+            <input type="email" name="email" required placeholder="abc@xyz.com"> <br> <br>
+            <label for="3">Mobile Number</label> <br>
+            <input type="number" name="text" required placeholder="+91123456789"> <br><br>
+            <label   for="3">State :</label> <select name="state" id="state">
+                <option value="">select your state</option>
+                <option value="bihar">Bihar</option> 
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <label for="3">District :</label> <select name="District" id="District">
+                <option value="">select your District</option>
+                <option value="Nalanda">Nalanda</option> 
+                <option value="kishanganj">kishanganj</option>
+            </select> <br> <br>
+
+
+            <label for="4">Full Address</label> <br>
+            <textarea name="Description" placeholder="Enter your full address with pin code" required rows="3" cols="55" id="#"></textarea> <br> <br>
+            <button style="border-radius: 2rem; box-shadow: 8px 8px 8px rgb(125, 220, 101); background-color: rgb(171, 230, 52);  height: 10%; width: 30%; font-size: larger; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" > <strong>Submit &#8599</strong> </button> 
+
+
+        </fieldset>
+
+        <p style="font-size: x-small; color: rgb(255, 234, 149);"> &copy Copyright 2024, All rights reserved! ● Rocky</p>
+
+    
+</body>
+</html>
